@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAC Memory Kit — Download</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Georgia', serif;
+      background: #0B1220;
+      color: #E8E0D4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .card {
+      max-width: 520px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      color: #D4A437;
+      margin-bottom: 16px;
+      font-weight: 400;
+    }
+    p {
+      margin-bottom: 24px;
+      line-height: 1.7;
+      color: #8A9AB5;
+    }
+    .download-btn {
+      display: inline-block;
+      background: #D4A437;
+      color: #0B1220;
+      font-size: 1.1rem;
+      font-weight: 700;
+      padding: 14px 48px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .download-btn:hover { background: #e5b84a; }
+    .note {
+      font-size: 0.85rem;
+      color: #5a6a7e;
+      margin-top: 32px;
+    }
+    .dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: #D4A437;
+      border-radius: 50%;
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="dot"></div>
+    <h1>You're in.</h1>
+    <p>Thank you. Download your kit below.</p>
+    <a href="/lac-memory-kit-v1.0.zip" class="download-btn">Download LAC Memory Kit</a>
+    <p class="note">
+      Unzip. Run <code>pip install -e .</code><br>
+      Hand <code>INSTALL_ME.md</code> to your model. That's it.<br><br>
+      Questions? <a href="mailto:reliablerestaurantrepair@gmail.com" style="color:#D4A437;">reliablerestaurantrepair@gmail.com</a>
+    </p>
+  </div>
+</body>
+</html>
