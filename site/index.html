@@ -299,24 +299,7 @@ pyproject.toml    — pip install -e .</div>
       // Replace STRIPE_PRICE_ID with your actual Stripe price ID
       // For sliding scale, use Stripe Checkout with custom amount
 
-      // Option 1: Stripe Payment Link (simple)
-      // window.location.href = 'https://buy.stripe.com/YOUR_LINK_HERE?amount=' + (price * 100);
-
-      // Option 2: Call your backend to create a Checkout Session
-      fetch('/api/create-checkout', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ amount: price * 100, currency: 'usd' })
-      })
-      .then(r => r.json())
-      .then(data => {
-        if (data.url) window.location.href = data.url;
-        else alert('Payment setup needed — see console for details.');
-      })
-      .catch(() => {
-        // Fallback: direct to Stripe payment link at suggested price
-        alert('Stripe integration needed. Set STRIPE_SECRET_KEY and deploy the checkout endpoint.');
-      });
+      window.location.href = 'https://buy.stripe.com/14A00l83Ab0t3q2gx7fbq00';
     }
   </script>
 
