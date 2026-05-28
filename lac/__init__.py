@@ -13,6 +13,10 @@ Public surface:
     mem = Memory(root="./my_memory")
     mem.remember("user_name", "Alice", source="conversation", confidence=0.9)
     facts = mem.recall("who am i talking to")
+
+NOTE: "LAC" here = this Memory Kit (substrate only). It is NOT the internal
+Lateral Autonomous Cognition roam/learn loop, which is separate internal IP
+and is never part of this package. See NAMING.md.
 """
 from .memory import Memory
 from .promotion import Promotion

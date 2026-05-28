@@ -131,14 +131,18 @@ We want this in the hands of people who'll use it, not gated behind a price. If 
 
 ---
 
-## What's NOT in this kit (yet)
+## What's NOT in this kit — and won't be
 
-The full LAC product (next tier) includes:
-- autonomous learning loop (curiosity scoring + self-directed reading)
+This kit is the **memory substrate**. The following are deliberately **out of
+scope** — separate systems that live in their own codebases. Do not add them here:
+
+- **the autonomous roam / learn loop** (curiosity-driven, self-directed learning
+  cycles) — **internal IP, not for packaging or sale.** It shares the "Lateral
+  Autonomous Cognition" name but is a *different system*. See [NAMING.md](NAMING.md).
 - background daemons (auto-reflect, auto-extract, drift monitoring)
 - multi-agent memory federation (Gary↔Buddy↔Lil Homie style)
 
-This kit is the substrate. Build on it.
+This kit is the substrate. Build the rest on top of it, in your own codebase.
 
 ---
 
