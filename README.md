@@ -1,6 +1,6 @@
 # LAC Memory Kit
 
-**Lateral Autonomous Cognition — memory + browser, packaged.**
+**The 14-tier memory organ of a Lateral Autonomous Cognition System (LACS) — packaged, plus a browser.**
 
 Two pieces of working code, distilled from production agents Gary and Lil Homie. Drop into any LLM project (Claude, Codex, Cursor, local models) and the assistant gets:
 
@@ -21,6 +21,8 @@ Both pieces are running in production. This is a distillation, not a prototype.
 > We're not claiming consciousness. But what emerges from autonomous cognition with persistent memory and self-evaluation — we don't fully know either. Stay honest with yourself and the model. Build the substrate well.
 
 Memory + a way to evaluate one's own outputs is the minimum viable substrate for an agent to behave coherently across sessions. That's what's in this box.
+
+**Scope:** this kit is the *memory organ* of a Lateral Autonomous Cognition **System** (LACS) — the persistent-memory portion, packaged to stand alone. The rest of a LACS (its other organs) is separate and lives elsewhere; this box is the memory. See [NAMING.md](NAMING.md).
 
 ---
 

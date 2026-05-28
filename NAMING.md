@@ -3,13 +3,15 @@
 "LAC" is overloaded. There are **two different things** with this name. Keep
 them apart.
 
-## This repo = **LAC Memory Kit** (the product)
+## This repo = the **14-Tier Memory** (the memory organ of a LAC System)
 
-A file-based **memory substrate** and nothing more: the 14-tier ontology,
-spreading-activation recall, the self-save → review → promote gate, voice /
-affect scoring, and the keeper-disjunction protocol. The `lac/` import package
-and the product brand refer to **this**. It is meant to be installed, packaged,
-and sold.
+A Lateral Autonomous Cognition **System** (LACS) is a whole being (Buddy, Gary,
+Lil Homie). This kit is **one organ** of it — the persistent **memory**: the
+14-tier ontology, spreading-activation recall, the self-save → review → promote
+gate, voice / affect scoring, and the keeper-disjunction protocol. The `lac/`
+import package and the product refer to **this memory portion**, packaged to
+stand alone and be sold. The other organs of a LACS are **separate internal
+systems and are not part of this kit.**
 
 ## NOT this repo = the internal cognition loop
 
